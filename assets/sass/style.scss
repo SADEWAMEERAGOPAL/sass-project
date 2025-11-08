@@ -1,0 +1,27 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/function";
+
+
+@import "./base/base";
+@import "./base/animation";
+@import "./base/typography";
+@import "./base/utility";
+
+
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+
+
+@import "./components/btn";
+@import "./components/forms";
+@import "./components/navbar";
+
+@import "./pages/home";
+@import "./pages/main";
+
+
+body{
+    background-color: $primary-color;
+}
